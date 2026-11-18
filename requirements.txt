@@ -1,0 +1,33 @@
+# Core Data, Geometry & Graph (Member 1 & 3)
+numpy>=1.26.0
+pandas>=2.0.0
+scipy>=1.11.0
+shapely>=2.0.0
+networkx>=3.0
+pyproj>=3.6.0
+pyarrow>=14.0.0
+
+# Machine Learning & Bayesian Optimization (Member 2)
+scikit-learn>=1.3.0
+lightgbm>=4.1.0
+xgboost>=2.0.0
+optuna>=3.5.0
+joblib>=1.3.0
+
+# Interactive Mapping & Plotting (Member 1, 2, 4)
+folium>=0.15.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# FastAPI Backend — Laptop 1 (Member 4)
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.6.0
+
+# Evaluator Dashboard — Laptop 2 (Member 4)
+streamlit>=1.32.0
+requests>=2.31.0
+
+# Testing & Verification
+pytest>=8.0.0
+httpx>=0.27.0
